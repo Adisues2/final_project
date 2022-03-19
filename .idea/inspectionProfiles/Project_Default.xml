@@ -1,0 +1,43 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E271" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app.app.flask_bootstrap" />
+          <option value="app.app.flask_wtf" />
+          <option value="webForm.app.form.flask_wtf" />
+          <option value="demoRelationship.app.models.app" />
+          <option value="app.db.Column" />
+          <option value="app.db.Integer" />
+          <option value="app.db.ForeignKey" />
+          <option value="database_manager" />
+          <option value="app.forms" />
+          <option value="app1.app1" />
+          <option value="app.models" />
+          <option value="app.films.AddFilmForm" />
+          <option value="wtforms.FlaskForm" />
+          <option value="Films.AddFilmForm" />
+          <option value="Films.Country" />
+          <option value="Films.AddDirectorForm" />
+          <option value="Films.Film" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

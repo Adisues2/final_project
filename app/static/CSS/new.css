@@ -1,0 +1,26 @@
+
+.container{
+
+   width: 50%;
+   height:90vh;
+    margin: 100px;
+   padding:50px;
+   text-align:center;
+   justify-content:center;
+   align-items:center
+   border-radius:5px solid salmon;
+   boxing-sizing:border;
+   background-color:#678;
+   background-image:url('static/image/download_3.jpeg')
+
+}
+
+.images {
+    display: inline-block;
+    max-width: 98%;
+    height: auto;
+    width: 22%;
+    margin: 1%;
+    left: 20px;
+    text-align: center
+}

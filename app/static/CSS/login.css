@@ -1,0 +1,17 @@
+
+.container{
+
+   margin:50px;
+   padding:40px;
+   background-color:#678a;
+}
+
+.images {
+    display: inline-block;
+    max-width: 98%;
+    height: auto;
+    width: 22%;
+    margin: 1%;
+    left: 20px;
+    text-align: center
+}

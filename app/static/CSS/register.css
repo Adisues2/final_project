@@ -1,0 +1,26 @@
+
+.container{
+width:200px;
+height:155vh;
+background:#345d;
+margin:50px;
+padding:50px;
+font-family:sanserif;
+align-items:center;
+boxing-sizing:border;
+border-color:salmon;
+border-radius:250px;
+
+}
+.details{
+align-items:center;
+justify-content:center
+}
+.button{
+align-items:center;
+justify-content:center;
+background-color:btn btn-primary;
+width:200px;
+margin:70px;
+
+}
