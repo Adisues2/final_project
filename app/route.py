@@ -2,7 +2,7 @@ from flask import request, redirect, render_template, flash, url_for, current_ap
 from flask_login import login_required, logout_user
 from werkzeug.utils import secure_filename
 from app import app
-from app import db
+#from app import db
 from app.forms import RegisterForm, LoginForm, ProductForm
 from app.models import Register, Login, Product, CartItem, Brand, Category
 import os
