@@ -1,8 +1,8 @@
 from flask import request, redirect, render_template, flash, url_for, current_app, session
-from flask_login import login_required, logout_user
+# from flask_login import login_required, logout
 from werkzeug.utils import secure_filename
 from app import app
-#from app import db
+from app import db
 from app.forms import RegisterForm, LoginForm, ProductForm
 from app.models import Register, Login, Product, CartItem, Brand, Category
 import os
@@ -138,9 +138,9 @@ def login_page():
 
 
 @app.route('/logout')
-@login_required
+# @login_required
 def logout():
-    logout_user()
+    logout()
     flash('you are logout', 'success')
     return redirect(url_for('login'))
 
@@ -178,3 +178,5 @@ def addcat():
         db.session.commit()
         redirect(url_for('addcat'))
     return render_template('addbrand.html')
+
+
