@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\lenovo\virtualenvs\python_final_project\env"
+VIRTUAL_ENV="C:\Users\lenovo\virtual\python-final-project\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

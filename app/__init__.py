@@ -1,8 +1,7 @@
-
 from flask import Flask, request
-from flask_bcrypt import Bcrypt
+#from flask import Bcrypt
 from flask_login import LoginManager
-# from flask_migrate import Migrate
+from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 import os
 
@@ -22,11 +21,10 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 # migrate = Migrate(app, db)
 db.init_app(app)
-bcrypt = Bcrypt(app)
+# bcrypt = Bcrypt(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = "customerLogin"
 login_manager.needs_refresh_message_category = 'danger'
 login_manager.login_message = u"please login first"
 from app import forms, models, route
-
