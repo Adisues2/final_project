@@ -178,3 +178,5 @@ def addcat():
         db.session.commit()
         redirect(url_for('addcat'))
     return render_template('addbrand.html')
+
+
